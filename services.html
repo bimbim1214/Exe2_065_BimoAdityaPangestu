@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio - Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - services</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            background: rgba(44, 62, 80, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1abc9c;
+        }
+        
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        label {
+            width: 150px;
+            margin-right: 10px;
+        }
+        
+        input[type="text"],
+        textarea,
+        select {
+            flex-grow: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #34495e;
+            color: #ecf0f1;
+        }
+        
+        input[type="radio"] {
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+        
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #1abc9c;
+            color: #ecf0f1;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+        }
+        
+        button:hover {
+            background: #16a085;
+        }
+        
+        .sidebar {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 300px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 20px;
+            margin-bottom: 20px; /* Tambahan */
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        
+        .profile {
+            text-align: center;
+        }
+        
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #6a82fb;
+        }
+        
+        .nav {
+            margin-top: auto; /* Ubah */
+            text-align: center; /* Tambah */
+        }
+        
+        .nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .nav ul li {
+            margin: 15px 0;
+        }
+        
+        .nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .nav ul li a:hover {
+            color: #007bff;
+        }
+        
+        footer {
+            font-size: 0.8em;
+            color: #999;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .content {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .content p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        
+        .content button {
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="bayi.jpg" alt="Profile Picture">
+                <h2>SUPERMAN BOCIL</h2>
+                <p>SUPERHERO MINI SIAP MENYELESAIKAN MASALAH ANDA</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="skills.html">SKILLS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p>Made with ♥ by <a href="https://colorlib.com">Colorlib</a></p>
+                <p>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+                <p>Demo Images: <a href="https://unsplash.com">Unsplash.com</a></p>
+            </footer>
+        </aside>
+        <main class="content">
+            <h1>Booking Services</h1>
+            <p>Welcome to the Services page. Here you can order about the services I offer.</p>
+        </main>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h3>Booking Services</h3>
+        </div>
+        <form id="Booking ServicesForm">
+            <div class="form-row">
+                <label for="nama" style="font-weight:bold;">Nama</label>
+                <input type="text" placeholder="Nama Anda" id="nama" required>
+            </div>
+            <div class="form-row">
+                <label for="nim" style="font-weight: bold;">email</label>
+                <input type="text" placeholder="email Anda" id="email" required>
+            </div>
+            <div class="form-row">
+                <label style="font-weight: bold;">daftar master</label>
+                <input type="radio" name="daftar master" id="Master HTML" value="Master HTML">
+                <label for="Master HTML">Master HTML</label>
+                <input type="radio" name="daftar master" id="Master CSS" value="Master CS">
+                <label for="Master CS">Master CSS</label>
+                <input type="radio" name="daftar master" id="Master Java Script" value="Master Java Script">
+                <label for="Master Java Script">Master Java Script</label>
+                <input type="radio" name="daftar master" id="Master React" value="Master React">
+                <label for="Master React">Master React</label>
+            </div>
+
+            <div class="form-row">
+                <label for="alamat" style="font-weight: bold;">Alamat</label>
+                <textarea placeholder="Tulis alamat Anda di sini" id="alamat" name="alamat" cols="30" rows="5"></textarea>
+            </div>
+            <button type="button" onclick="kirimdata()">Kirim</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        function kirimdata() {
+            const form = document.getElementById('Booking ServicesForm');
+            const nama = document.getElementById('nama').value;
+            const email = document.getElementById('email').value;
+            const daftar_master = form.querySelector('input[name="daftar master"]:checked').value;
+            const alamat = document.getElementById('alamat').value;
+    
+            const message = `Data yang Anda isi:\n
+            Nama: ${nama}\n
+            Email: ${email}\n
+            daftar_master: ${daftar_master}\n
+            Alamat: ${alamat}`;
+    
+            alert(message);
+        }
+    </script>
+    
+</body>
+</html>
